@@ -11,6 +11,8 @@ namespace SimpleBlog.Areas.Admin.Controllers
         public ActionResult Index()
         {
             return Content("ADMIN POSTS!");
+
+            
         }
 
 
