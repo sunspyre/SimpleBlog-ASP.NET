@@ -167,6 +167,7 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\View.cshtml" />
     <Content Include="Views\View1.cshtml" />
+    <Content Include="Tools\DeployDB-Dev.bat" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
