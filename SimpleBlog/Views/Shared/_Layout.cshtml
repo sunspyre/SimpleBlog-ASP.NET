@@ -16,9 +16,9 @@
     <header>
         <h1>
             <a href="@Url.RouteUrl("home")">Simple blog</a>
-            <i class="glyphicon glyphicon-bell"></i>
+            @*<i class="glyphicon glyphicon-bell"></i>*@
         </h1>
-        <a href="@Url.RouteUrl("login")">Login</a>
+        @*<a href="@Url.RouteUrl("login")">Login</a>*@
 
         @if (User.Identity.IsAuthenticated)
         {            
